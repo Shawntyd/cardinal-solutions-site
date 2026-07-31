@@ -114,7 +114,7 @@ def build_home():
   <div class="section-inner">
     <p class="eyebrow reveal">Dwg No. CS&#8209;00 \u00b7 Explore Cardinal Solutions</p>
     <h2 class="section-title reveal">Everything about how<br><em>Cardinal Solutions works.</em></h2>
-    <p class="section-lede reveal">A closer look at his experience, consulting programs, training, and credentials.</p>
+    <p class="section-lede reveal">A closer look at experience, consulting programs, training, and credentials.</p>
     <div class="teaser-grid">
       <div class="teaser-card reveal">
         <span class="teaser-num">CS&#8209;02</span>
