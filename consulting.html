@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Consulting — Cardinal Solutions</title>
+<meta name="description" content="Regulatory compliance, quality assurance, and operations consulting programs for pharmacies at every stage.">
+<link rel="icon" href="assets/brand/logo.png">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@400;500;600;700&family=Newsreader:ital,wght@0,400;0,500;1,400;1,500&family=JetBrains+Mono:wght@400;500;600&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="styles.css">
+</head>
+<body>
+<div style="position:fixed;top:0;left:0;width:100%;height:2px;z-index:1000;"><div id="progressFill" style="height:100%;width:0%;background:linear-gradient(90deg,var(--redline),var(--gold));transition:width .1s linear;"></div></div>
+<header class="nav" id="nav">
+  <a href="index.html" class="nav-brand">
+    <img src="assets/brand/logo.png" alt="Cardinal Solutions" class="nav-logo">
+    <span>Cardinal Solutions</span>
+  </a>
+  <nav class="nav-links" id="navLinks">
+    <a href="index.html" data-nav>Home</a>
+    <a href="experience.html" data-nav>Experience</a>
+    <a href="consulting.html" data-nav class="active">Consulting</a>
+    <a href="training.html" data-nav>Training</a>
+    <a href="credentials.html" data-nav>Credentials</a>
+    <a href="contact.html" data-nav>Contact</a>
+  </nav>
+  <a href="contact.html" class="nav-cta">Book Consultation</a>
+  <button class="nav-toggle" id="navToggle" aria-label="Toggle menu"><span></span><span></span><span></span></button>
+</header>
+
+<section class="page-hero">
+  <div class="page-hero-inner">
+    <p class="eyebrow reveal">Dwg No. CS-03 · Consulting Programs</p>
+    <h1 class="section-title reveal">Built to reduce risk and<br><em>raise the ceiling on performance.</em></h1>
+    <p class="section-lede reveal">Organized around where your pharmacy is today — not just a flat list of services. Every program is delivered by credentialed, trained personnel and can be engaged individually or bundled. Instruction is not meant to substitute professional judgement.</p>
+  </div>
+</section>
+
+<section class="section" style="padding-top:90px;">
+  <div class="section-inner">
+    <div class="pricing-toggle reveal">
+      <span class="toggle-label" data-period-label="quarterly">Quarterly</span>
+      <button class="toggle-switch" id="periodToggle" role="switch" aria-checked="false" aria-label="Toggle between quarterly and yearly pricing"><span class="toggle-knob"></span></button>
+      <span class="toggle-label" data-period-label="yearly">Yearly <em>— best value</em></span>
+    </div>
+    
+    <div class="stage-group">
+      <div class="stage-head reveal">
+        <span class="stage-num">01</span>
+        <div><h3>Build — Getting Licensed &amp; Operational</h3><p>For pharmacies standing up formulas and processes for the first time.</p></div>
+      </div>
+      <div class="stage-flow flow" id="stageFlow1"></div>
+    </div>
+    <div class="stage-group">
+      <div class="stage-head reveal">
+        <span class="stage-num">02</span>
+        <div><h3>Grow — Scaling Your Operation</h3><p>For pharmacies expanding capacity, supply chains, and manufacturing practices.</p></div>
+      </div>
+      <div class="stage-flow flow" id="stageFlow2"></div>
+    </div>
+    <div class="stage-group">
+      <div class="stage-head reveal">
+        <span class="stage-num">03</span>
+        <div><h3>Sustain — Staying Compliant</h3><p>For pharmacies that need ongoing audits, inspections, and quality assurance.</p></div>
+      </div>
+      <div class="stage-flow flow" id="stageFlow3"></div>
+    </div>
+    <div class="stage-group">
+      <div class="stage-head reveal">
+        <span class="stage-num">—</span>
+        <div><h3>Flexible — General Consultation</h3><p>Not sure where you fall? Ask specific questions about your workflow, billed by the session.</p></div>
+      </div>
+      <div class="stage-flow flow" id="flexFlow"></div>
+    </div>
+
+    <div class="bundle-card reveal">
+      <span class="corner-tl"></span><span class="corner-tr"></span><span class="corner-bl"></span><span class="corner-br"></span>
+      <div class="bundle-head"><p class="eyebrow" style="margin-bottom:6px">2026 Promotion</p><h3>503A Master Bundle — All Five Consulting Programs</h3></div>
+      <div class="bundle-prices">
+        <div class="bundle-price" data-period="quarterly"><span class="bundle-price-num">$36,400</span><span class="bundle-price-unit">/ quarter</span><span class="bundle-price-was">$45,500/quarter<span class="strike"></span></span></div>
+        <div class="bundle-price" data-period="yearly" style="display:none"><span class="bundle-price-num">$122,590</span><span class="bundle-price-unit">/ year</span><span class="bundle-price-was">$149,500/year<span class="strike"></span></span></div>
+        <p class="bundle-price-note">Cancellation fees waived on yearly terms</p>
+      </div>
+      <a href="contact.html" class="btn btn-primary">Inquire</a>
+    </div>
+  </div>
+</section>
+<footer class="footer">
+  <div class="footer-inner">
+    <div class="footer-brand"><img src="assets/brand/logo.png" alt="Cardinal Solutions"><span>Cardinal Solutions</span></div>
+    <p class="footer-note">A Cardinal Group company · The Woodlands, TX · © 2026 Cardinal Solutions. Instruction and consulting services are not a substitute for professional judgement or licensed pharmacist oversight.</p>
+  </div>
+</footer>
+<script src="script.js"></script>
+</body>
+</html>
