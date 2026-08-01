@@ -100,7 +100,6 @@ const EXPERIENCE = [
   { idx: '05', role: 'Lead Pharmacy Technician', org: 'HCA', place: 'Houston, TX', dates: 'Mar 2025 \u2014 Aug 2025',
     bullets: [
       'Sterile compounding experience in a hospital setting, including IV bag preparation and vertical airflow hood technique.',
-      'Began provisional training in hazardous drug compounding.',
       'Drafted provisional SOPs for drug diversion accountability and discrepancy reconciliation.'
     ] },
   { idx: '06', role: 'IV Pharmacy Technician', org: 'Remedi Senior Care', place: 'Houston, TX', dates: 'Jan 2025 \u2014 May 2025',
