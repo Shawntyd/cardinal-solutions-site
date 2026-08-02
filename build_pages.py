@@ -59,7 +59,7 @@ FOOTER = """<footer class="footer">
 def page_hero(dwg, eyebrow, title_html, lede):
     return f"""<section class="page-hero">
   <div class="page-hero-inner">
-    <p class="eyebrow reveal">Dwg No. {dwg} \u00b7 {eyebrow}</p>
+    <p class="eyebrow reveal">SOP No. {dwg} \u00b7 {eyebrow}</p>
     <h1 class="section-title reveal">{title_html}</h1>
     <p class="section-lede reveal">{lede}</p>
   </div>
@@ -83,7 +83,7 @@ def build_home():
 <section class="hero" id="top">
   <div class="hero-inner">
     <img src="assets/brand/logo.png" alt="Cardinal Solutions" class="hero-logo reveal">
-    <p class="hero-dwgnum reveal">Cardinal Solutions <b>\u00b7</b> Dwg No. CS&#8209;01 <b>\u00b7</b> Rev 2026.1</p>
+    <p class="hero-dwgnum reveal">Cardinal Solutions <b>\u00b7</b> SOP No. CS&#8209;01 <b>\u00b7</b> Rev 2026.1</p>
     <h1 class="hero-title">
       <span class="line reveal">Precision, designed</span>
       <span class="line reveal">into every</span>
@@ -112,7 +112,7 @@ def build_home():
 
 <section class="section" id="explore">
   <div class="section-inner">
-    <p class="eyebrow reveal">Dwg No. CS&#8209;00 \u00b7 Explore Cardinal Solutions</p>
+    <p class="eyebrow reveal">SOP No. CS&#8209;00 \u00b7 Explore Cardinal Solutions</p>
     <h2 class="section-title reveal">Everything about how<br><em>Cardinal Solutions works.</em></h2>
     <p class="section-lede reveal">A closer look at experience, consulting programs, training, and credentials.</p>
     <div class="teaser-grid">
@@ -152,7 +152,7 @@ def build_home():
 
 <section class="section results" id="results">
   <div class="section-inner">
-    <p class="eyebrow reveal">Dwg No. CS&#8209;06 \u00b7 Track Record</p>
+    <p class="eyebrow reveal">SOP No. CS&#8209;06 \u00b7 Track Record</p>
     <h2 class="section-title reveal">The numbers behind<br><em>the credentials.</em></h2>
     <div class="chart" id="resultsChart"></div>
   </div>
@@ -182,7 +182,7 @@ def build_experience():
 
 <section class="section" style="border-top:1px solid var(--line);">
   <div class="section-inner">
-    <p class="eyebrow reveal">Dwg No. CS&#8209;02b \u00b7 Skills</p>
+    <p class="eyebrow reveal">SOP No. CS&#8209;02b \u00b7 Skills</p>
     <h2 class="section-title reveal">Years of hands-on<br><em>experience, by skill.</em></h2>
     <p class="section-lede reveal">As documented on his resume \u2014 not estimated, not rounded up.</p>
     <div class="skills-list" id="skillsList"></div>
