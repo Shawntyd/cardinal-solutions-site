@@ -109,10 +109,6 @@ button { font-family: inherit; cursor: pointer; background: none; border: none; 
 .stat-num { font-family: var(--display); font-size: 42px; font-weight: 600; color: var(--blue); line-height: 1; }
 .stat-label { font-family: var(--mono); font-size: 11px; color: var(--text-faint); margin-top: 10px; line-height: 1.5; text-transform: uppercase; letter-spacing: 0.03em; }
 
-.hero-scroll-cue { position: absolute; bottom: 30px; left: 50%; transform: translateX(-50%); display: flex; flex-direction: column; align-items: center; gap: 10px; font-family: var(--mono); font-size: 10px; letter-spacing: 0.14em; color: var(--text-faint); text-transform: uppercase; }
-.hero-scroll-cue span { width: 1px; height: 30px; background: linear-gradient(var(--blue), transparent); animation: scrollPulse 2s infinite var(--ease); }
-@keyframes scrollPulse { 0%,100% { opacity: 0.25; } 50% { opacity: 1; } }
-
 /* ============ ABOUT ============ */
 .about-grid { display: grid; grid-template-columns: 1.3fr 1fr; gap: 80px; align-items: start; }
 .about-copy p { color: var(--text-dim); margin-bottom: 20px; font-size: 17px; }

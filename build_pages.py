@@ -107,7 +107,6 @@ def build_home():
       <div class="hero-stat"><span class="stat-num" data-count="80" data-suffix="%+">0</span><span class="stat-label">Error reduction<br>achieved for clients</span></div>
     </div>
   </div>
-  <div class="hero-scroll-cue"><span></span>Scroll</div>
 </section>
 
 <section class="section" id="explore">
