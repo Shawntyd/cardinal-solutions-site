@@ -211,7 +211,7 @@ def build_consulting():
     </div>"""
     body = f"""{nav_html("consulting.html")}
 {page_hero("CS-03", "Consulting Programs", "Built to reduce risk and<br><em>raise the ceiling on performance.</em>",
-    "Organized around where your pharmacy is today \u2014 not just a flat list of services. Every program is delivered by credentialed, trained personnel and can be engaged individually or bundled. Instruction is not meant to substitute professional judgement.")}
+    "Organized around where your pharmacy is today \u2014 not just a flat list of services. Every program is delivered by credentialed, trained personnel and can be engaged individually or bundled.")}
 <section class="section" style="padding-top:90px;">
   <div class="section-inner">
     <div class="pricing-toggle reveal">
