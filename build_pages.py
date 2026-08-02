@@ -215,7 +215,7 @@ def build_consulting():
 <div class="photo-section reveal">
   <div class="photo-frame">
     <span class="corner-tl"></span><span class="corner-br"></span>
-    <img src="assets/images/consulting-review.jpg" alt="Reviewing pharmacy operations documentation">
+    <img src="assets/images/consulting-review.jpg" alt="Reviewing pharmacy operations documentation" style="object-position: 40% 75%;">
   </div>
 </div>
 <section class="section" style="padding-top:60px;">
