@@ -170,7 +170,7 @@ def build_experience():
     )
     body = f"""{nav_html("experience.html")}
 {page_hero("CS-02", "Experience", "Eleven roles.<br><em>One throughline: building systems from scratch.</em>",
-    "Taiyon Davis's full career history, from certified pharmacy technician to founder \u2014 in his own resume's words, condensed.")}
+    "From certified pharmacy technician to founder \u2014 eleven roles building toward Cardinal Solutions.")}
 <section class="section" style="padding-top:90px;">
   <div class="section-inner">
     <div class="flow" id="experienceTimeline"></div>
@@ -181,7 +181,7 @@ def build_experience():
   <div class="section-inner">
     <p class="eyebrow reveal">SOP No. CS&#8209;02b \u00b7 Skills</p>
     <h2 class="section-title reveal">Years of hands-on<br><em>experience, by skill.</em></h2>
-    <p class="section-lede reveal">As documented on his resume \u2014 not estimated, not rounded up.</p>
+    <p class="section-lede reveal">Hands-on time across the skills that matter most in daily pharmacy operations.</p>
     <div class="skills-list" id="skillsList"></div>
   </div>
 </section>
