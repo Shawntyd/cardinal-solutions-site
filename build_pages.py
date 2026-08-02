@@ -212,7 +212,13 @@ def build_consulting():
     body = f"""{nav_html("consulting.html")}
 {page_hero("CS-03", "Consulting Programs", "Built to reduce risk and<br><em>raise the ceiling on performance.</em>",
     "Organized around where your pharmacy is today \u2014 not just a flat list of services. Every program is delivered by credentialed, trained personnel and can be engaged individually or bundled.")}
-<section class="section" style="padding-top:90px;">
+<div class="photo-section reveal">
+  <div class="photo-frame">
+    <span class="corner-tl"></span><span class="corner-br"></span>
+    <img src="assets/images/consulting-review.jpg" alt="Reviewing pharmacy operations documentation">
+  </div>
+</div>
+<section class="section" style="padding-top:60px;">
   <div class="section-inner">
     <div class="pricing-toggle reveal">
       <span class="toggle-label" data-period-label="quarterly">Quarterly</span>
@@ -254,7 +260,13 @@ def build_training():
     body = f"""{nav_html("training.html")}
 {page_hero("CS-04", "Instruction Services", "Hands-on training for<br><em>staff at every level.</em>",
     "Seven instruction programs, each combining structured curriculum with on-hands training. Programs are not limited to practicing technicians \u2014 leadership is welcome, and encouraged, to learn the components they'll hold their staff accountable to.")}
-<section class="section" style="padding-top:90px;">
+<div class="photo-section reveal">
+  <div class="photo-frame">
+    <span class="corner-tl"></span><span class="corner-br"></span>
+    <img src="assets/images/sterile-compounding.jpg" alt="Sterile compounding under a laminar flow hood">
+  </div>
+</div>
+<section class="section" style="padding-top:60px;">
   <div class="section-inner">
     <div class="pricing-toggle reveal">
       <span class="toggle-label" data-period-label="quarterly">Quarterly</span>
